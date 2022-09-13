@@ -1,4 +1,4 @@
-# DIA 4
+# DIA 2
 
 O objetivo dos exercícios desse dia foi criar um repositório no github para armazenar os exercicios durante meu curso aqui na Trybe.
 
