@@ -13,12 +13,6 @@
 - [ ] 2-2: _Git e GitHub - Entendendo os comandos_
 - [ ] 2-3: _Internet - Entendendo como ela funciona_
 
-##### Bloco 2: Git, GitHub e Internet
-
-- [ ] 2-1: _Git - O que é e para que serve?_
-- [ ] 2-2: _Git e GitHub - Entendendo os comandos_
-- [ ] 2-3: _Internet - Entendendo como ela funciona_
-
 ##### Bloco 3: Introdução à HTML e CSS
 
 - [ ] 3-1: _Introdução - HTML e CSS_
