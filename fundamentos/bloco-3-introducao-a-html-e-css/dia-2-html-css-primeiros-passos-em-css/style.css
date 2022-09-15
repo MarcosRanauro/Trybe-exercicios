@@ -1,0 +1,38 @@
+body {
+    font-size: 16px;
+    line-height: 40px;
+    font-style: italic;
+    text-align: left;
+    text-decoration: overline;
+}
+
+h1 {
+    color: orange;
+    font-family: sans-serif;
+}
+
+p {
+    font-weight: 600;
+    font-size: 3em;
+    
+}
+
+#lista1{
+    background-color: blue;
+    color: white;
+}
+
+.tagpul {
+    background-color: transparent;
+    color: black;
+}
+
+#amarelo{
+    color: yellow;
+}
+#vermelho{
+    color: red;
+}
+#marrom{
+    color: brown;
+}
