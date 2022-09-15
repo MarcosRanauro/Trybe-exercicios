@@ -5,8 +5,23 @@
     <title>HTML</title>
     <style>
 
+        body {
+            font-size: 16px;
+            line-height: 40px;
+            font-style: italic;
+            text-align: left;
+            text-decoration: overline;
+        }
+
         h1 {
             color: orange;
+            font-family: sans-serif;
+        }
+
+        p {
+            font-weight: 600;
+            font-size: 3em;
+            
         }
 
         #lista1{
@@ -15,19 +30,28 @@
         }
 
         .tagpul {
-            background-color: green;
-            color: white;
+            background-color: transparent;
+            color: black;
         }
 
+        #amarelo{
+            color: yellow;
+        }
+        #vermelho{
+            color: red;
+        }
+        #marrom{
+            color: brown;
+        }
     </style>
   </head>
   <body>
     <h1>Exercícios 3.2</h1>
     <p class="tagpul">Qual é a sua cor favorita?</p>
     <ul class="tagpul">
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
+      <li id="amarelo">Amarelo</li>
+      <li id="vermelho">Vermelho</li>
+      <li id="marrom">Marrom</li>
     </ul>
   </body>
 </html>
