@@ -1,0 +1,13 @@
+.textos{
+    text-align: center;
+}
+
+li:hover{
+    background-color: blue;
+    font-family: monospace;
+    
+}
+
+.list{
+    list-style-type: disc;
+}

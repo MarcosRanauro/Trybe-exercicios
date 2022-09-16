@@ -1,0 +1,33 @@
+div:hover{
+    background-color: blue;
+    
+}
+
+div:nth-of-type(1){
+    color: blue;
+    font-family: Verdana;
+    font-style: italic;
+}
+
+div:nth-of-type(2){
+    color: red;
+    font-family: monospace;
+}
+
+div:nth-of-type(3){
+    color: brown;
+    font-family: fantasy;
+    font-size: 30px;
+    font-style: italic;
+}
+
+div:nth-of-type(4){
+    color: chocolate;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div:nth-of-type(5){
+    color: aqua;
+    font-family: Times;
+    font-style: italic;
+}
