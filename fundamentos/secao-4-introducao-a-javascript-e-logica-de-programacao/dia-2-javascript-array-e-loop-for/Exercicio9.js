@@ -11,3 +11,4 @@ for (let index2 = 0; index2 < numbers.length; index2 += 1){
     console.log("Resultado da divisão do " + numbers[index2] + "° número = " + resultado);
     
 }
+
