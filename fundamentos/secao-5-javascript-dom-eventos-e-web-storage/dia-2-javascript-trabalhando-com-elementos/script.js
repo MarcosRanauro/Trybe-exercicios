@@ -51,8 +51,7 @@ lista(['um', 'dois', 'tres', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 
 
 for (let index = 1; index <= 3; index += 1) {
 let criandoH3 = document.createElement("h3");
-criandoH3.innerHTML = "Criei as 3 tags h3";
-criandoH3.className = "tagsH3" + index;
+criandoH3.innerHTML = "show " + index;
 capturandoMain.appendChild(criandoH3);
 }
 
