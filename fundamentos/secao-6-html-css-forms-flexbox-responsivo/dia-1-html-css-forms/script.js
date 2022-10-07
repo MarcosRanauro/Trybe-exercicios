@@ -1,10 +1,10 @@
-let getSendButton = document.getElementById("sendButton");
+const getSendButton = document.getElementById("sendButton");
 
 getSendButton.addEventListener('click', function (event){
     event.preventDefault();    
-    let getName = document.getElementById("full-name");
-    let getEmail = document.getElementById("email");
-    let getTextArea = document.getElementById("textArea");
+    const getName = document.getElementById("full-name");
+    const getEmail = document.getElementById("email");
+    const getTextArea = document.getElementById("textArea");
 
     if (getName.value.length < 10 || getEmail.value.length < 10 || getTextArea.value.length < 10) {
         alert ("Dados invalidos");
@@ -13,5 +13,16 @@ getSendButton.addEventListener('click', function (event){
     }
 })
 
+function enableSubmit () {
+    const getSubmit = document.getElementById("sendButton");
+    const getCheckbox = document.getElementById("verificationIMG");
+    getSubmit.disabled = !getCheckbox.checked;
+
+}
+
+window.onload = function () {
+    const agreement = document.querySelector('#verificationIMG');
+    agreement.addEventListener('change', enableSubmit);
+}
 
     

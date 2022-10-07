@@ -27,23 +27,23 @@ body {
     border-radius: 3px;
     width: 80%;
     padding: 50px;
-    margin: 0 auto 10px auto;
+    margin: 0 auto 0 auto;
 }
 
 .form-buttons {
-    margin-left: 40%;    
+    margin-left: 40%;
 }
 
 #sendButton {
   border-radius: 15px;
   width: 100px;
-  height: 30px;
+  height: 50px;
 }
 
 #resetButton {
   border-radius: 15px;
   width: 100px;
-  height: 30px;
+  height: 50px;
 }
 
 textarea {
