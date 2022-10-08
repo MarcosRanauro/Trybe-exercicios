@@ -34,7 +34,16 @@ body {
     margin-left: 40%;
 }
 
-#sendButton {
+#email2 {
+  background-color: #034422;
+  color: white;
+}
+
+#name2 {
+  background-color: #034422;
+  color: white;
+}
+/* #sendButton {
   border-radius: 15px;
   width: 100px;
   height: 50px;
@@ -44,7 +53,7 @@ body {
   border-radius: 15px;
   width: 100px;
   height: 50px;
-}
+} */
 
 textarea {
     resize: none;
