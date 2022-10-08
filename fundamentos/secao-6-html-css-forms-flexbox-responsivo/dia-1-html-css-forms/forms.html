@@ -1,68 +1,72 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
 </head>
+
 <body>
   <main>
     <header class="form-header">
-        <h1>TrybeTrip</h1>
-        <h2>Quer ganhar uma viagem incrivel?</h2>
-        <p><em>Preencha nosso formulário</em></p>
+      <h1>TrybeTrip</h1>
+      <h2>Quer ganhar uma viagem incrivel?</h2>
+      <p><em>Preencha nosso formulário</em></p>
     </header>
     <form action="" id="myForm" method="GET">
-    <section class="form-data">  
-      <section>
-        <label for="full-name" name="name" class="form-control form-control-sm" id="name2">Nome:
-          <input type="text" id="full-name" autocomplete="off" maxlength="40" class="form-control form-control-lg" >     
-        </label>
-      </section>
-      <br>
-      <section>
-        <label for="email" name="email" class="form-control form-control-sm" id="email2" >Email:
-          <input type="email" id="email" maxlength="50" class="form-control form-control-lg" >     
-        </label>
-      </section>
-      <br>
-      <section>
-        <h3>Para onde você gostaria de viajar?</h3>
-        <input type="radio" id="destino-1" name="destino" value="cidade" class="form-check-input" >
-        <label for="destino-1">Cidade</label>
-
-        <input type="radio" id="destino-2" name="destino" value="campo" class="form-check-input" >
-        <label for="destino-2" class="form-check-label">Campo</label>
-
-        <input type="radio" id="destino-3" name="destino" value="praia" class="form-check-input" >
-        <label for="destino-3" class="form-check-label">Praia</label>
-
-        <input type="radio" id="destino-4" name="destino" value="montanha" class="form-check-input" >
-        <label for="destino-4" class="form-check-label">Montanhas</label>
-      </section>
-      <br>
-      <section>
-        <h2>Porque você deve ser a pessoa ganhadora?</h2>
-        <textarea name="" id="textArea" cols="60" rows="10" maxlength="500" placeholder="Digite sua resposta com até 500 caractéres!" ></textarea>
-      </section>
-      <br>
-      <section>
-        <h3>Qual a melhor data para realizar sua viagem?</h3>
-        <label for="date">Data:</label>
-        <input type="date" id="date" name="data" >
-      </section>
-      <br>
-      <section class="form-check form-switch">
-        <label for="avaliacao">Gostaria de receber mais novidades da Trybe?</label>
-        <input type="checkbox" id="avaliacao" name="aceite" class="form-check-input" >
+      <section class="form-data">
+        <section>
+          <label for="full-name" name="name" class="form-control form-control-sm" id="name2">Nome:
+            <input type="text" id="full-name" autocomplete="off" maxlength="40" class="form-control form-control-lg">
+          </label>
+        </section>
         <br>
-        <label for="verificationIMG">Aceito que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros!</label>
-        <input type="checkbox" id="verificationIMG" name="aceite" class="form-check-input" >
+        <section>
+          <label for="email" name="email" class="form-control form-control-sm" id="email2">Email:
+            <input type="email" id="email" maxlength="50" class="form-control form-control-lg">
+          </label>
+        </section>
+        <br>
+        <section>
+          <h3>Para onde você gostaria de viajar?</h3>
+          <input type="radio" id="destino-1" name="destino" value="cidade" class="form-check-input">
+          <label for="destino-1">Cidade</label>
+
+          <input type="radio" id="destino-2" name="destino" value="campo" class="form-check-input">
+          <label for="destino-2" class="form-check-label">Campo</label>
+
+          <input type="radio" id="destino-3" name="destino" value="praia" class="form-check-input">
+          <label for="destino-3" class="form-check-label">Praia</label>
+
+          <input type="radio" id="destino-4" name="destino" value="montanha" class="form-check-input">
+          <label for="destino-4" class="form-check-label">Montanhas</label>
+        </section>
+        <br>
+        <section>
+          <h2>Porque você deve ser a pessoa ganhadora?</h2>
+          <textarea name="" id="textArea" cols="60" rows="10" maxlength="500"
+            placeholder="Digite sua resposta com até 500 caractéres!"></textarea>
+        </section>
+        <br>
+        <section>
+          <h3>Qual a melhor data para realizar sua viagem?</h3>
+          <label for="date">Data:</label>
+          <input type="date" id="date" name="data">
+        </section>
+        <br>
+        <section class="form-check form-switch">
+          <label for="avaliacao">Gostaria de receber mais novidades da Trybe?</label>
+          <input type="checkbox" id="avaliacao" name="aceite" class="form-check-input">
+          <br>
+          <label for="verificationIMG">Aceito que imagens das minhas férias poderão ser usadas na divulgação de
+            concursos futuros!</label>
+          <input type="checkbox" id="verificationIMG" name="aceite" class="form-check-input">
+        </section>
       </section>
-    </section>
       <section class="d-grid gap-2">
         <button type="submit" id="sendButton" class="btn btn-danger" disabled>Enviar</button>
         <button type="reset" id="resetButton" class="btn btn-danger">Apagar</button>
@@ -72,5 +76,6 @@
     </form>
   </main>
 </body>
-<script src="script.js" ></script>
+<script src="script.js"></script>
+
 </html>
