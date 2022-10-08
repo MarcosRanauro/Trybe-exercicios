@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -10,31 +10,41 @@ body {
 }
 
 .form-header {
-    text-align: center;
-    background-color: #E1F2D5;
-    border: 1px solid #034422;
-    border-radius: 3px;
-    width: 80%;
-    margin: 40px 0;
-    padding: 50px;
-    margin-right: auto;
-    margin-left: auto;
+  text-align: center;
+  background-color: #E1F2D5;
+  border: 1px solid #034422;
+  border-radius: 3px;
+  width: 80%;
+  margin: 40px 0;
+  padding: 50px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .form-data {
-    background-color: #E1F2D5;
-    border: 1px solid #034422;
-    border-radius: 3px;
-    width: 80%;
-    padding: 50px;
-    margin: 0 auto 0 auto;
+  background-color: #E1F2D5;
+  border: 1px solid #034422;
+  border-radius: 3px;
+  width: 80%;
+  padding: 50px;
+  margin: 0 auto 0 auto;
 }
 
 .form-buttons {
-    margin-left: 40%;
+  margin-left: 40%;
 }
 
-#sendButton {
+#email2 {
+  background-color: #034422;
+  color: white;
+}
+
+#name2 {
+  background-color: #034422;
+  color: white;
+}
+
+/* #sendButton {
   border-radius: 15px;
   width: 100px;
   height: 50px;
@@ -44,10 +54,10 @@ body {
   border-radius: 15px;
   width: 100px;
   height: 50px;
-}
+} */
 
 textarea {
-    resize: none;
-    display: block;
-    margin: 0;
+  resize: none;
+  display: block;
+  margin: 0;
 }
