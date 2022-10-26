@@ -72,3 +72,14 @@ console.log(getNamedBook());
     return books.find((book) => book.name.length === book26).name;
   }
 console.log(getNamedBook(26));
+
+//! Opção 3
+function getNamedBook() {
+  const nameBook = books.find((book) => book.name.length === 26).name;
+  if (nameBook) {
+   return nameBook;
+  } else {
+   return 'Livro não econtrado'
+  }
+ }
+console.log(getNamedBook());
