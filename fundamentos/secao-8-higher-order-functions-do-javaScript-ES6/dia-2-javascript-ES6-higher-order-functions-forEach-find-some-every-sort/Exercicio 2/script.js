@@ -60,18 +60,13 @@ const books = [
       releaseYear: 1928,
     },
   ];
-  
-  //! Forma de código com função.
-  function authorBornIn1947(birth) {
-    return books.find((idade) => idade.author.birthYear === birth).author.name;
+
+  function smallerName() {
+    let nameBook;
+    books.forEach((book) => {
+        if (!book || book.name.length < nameBook.length) {
+            nameBook = book.name;
+        }
+    });
+    return nameBook;
   }
-  console.log(authorBornIn1947(1947));
-
-  //! Forma de código com verificação em 1 linha só.
-  const authorBornIn1947 = books.find((birth) => birth.author.birthYear === 1947).author.name;
-  console.log(authorBornIn1947);
-
-  //! Forma de código com verificação em duas variaveis.
-  const verify = (birth) => birth.author.birthYear === 1947;
-  const result = books.find(verify).author.name;
-  console.log(result);
